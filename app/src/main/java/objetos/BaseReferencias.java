@@ -1,0 +1,7 @@
+package objetos;
+
+public class BaseReferencias {
+    final public static String iD = "id";
+
+
+}
