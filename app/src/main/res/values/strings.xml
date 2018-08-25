@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">DuoApp</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_iniciar_sesion">INICIAR SESION</string>
+    <string name="btn_registrarse">REGISTRARSE</string>
+    <string name="text_cuenta">Cuenta</string>
+    <string name="btn_restablecer_pass">Restablecer contrasena</string>
+    <string name="text_misLike">Tus likes</string>
+    <string name="historial_busquda">Historial de busquedas</string>
+    <string name="configuracion_name">Mi perfil</string>
+    <string name="my_perfil">Mi perfil</string>
+    <string name="title_activity_inicio"></string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="descripcion_text">Descripcion:</string>
+    <string name="subir_imagenes">Subir foto</string>
+    <string name="my_foto">Mi foto</string>
+    <string name="compartir_foto">Publicacar</string>
+    <string name="ubicacion">Anadir ubicacion</string>
+    <string name="hint_user_name">User name</string>
 </resources>
