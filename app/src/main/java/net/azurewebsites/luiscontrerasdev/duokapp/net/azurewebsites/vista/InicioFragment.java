@@ -1,12 +1,12 @@
-package net.azurewebsites.luiscontrerasdev.duokapp;
+package net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.vista;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import net.azurewebsites.luiscontrerasdev.duokapp.R;
 
 
 public class InicioFragment extends Fragment {

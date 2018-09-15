@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:id="@+id/contenedor"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".InicioActivity"
+    tools:context=".net.azurewebsites.vista.InicioActivity"
     tools:showIn="@layout/app_bar_inicio">
 
 

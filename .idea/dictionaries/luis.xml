@@ -1,16 +1,28 @@
 <component name="ProjectDictionaryState">
   <dictionary name="luis">
     <words>
+      <w>archivos</w>
+      <w>compartir</w>
       <w>correo</w>
       <w>datosuser</w>
+      <w>descripcion</w>
       <w>enviado</w>
       <w>foto</w>
+      <w>galeriaintent</w>
+      <w>informacion</w>
       <w>iniciar</w>
       <w>intentar</w>
+      <w>nombre</w>
+      <w>perfil</w>
       <w>publicacion</w>
       <w>registrarse</w>
       <w>ruta</w>
       <w>sesion</w>
+      <w>subiendo</w>
+      <w>subir</w>
+      <w>telefono</w>
+      <w>ubicacion</w>
+      <w>usuario</w>
       <w>volver</w>
     </words>
   </dictionary>

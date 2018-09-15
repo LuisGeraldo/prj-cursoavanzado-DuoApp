@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".net.azurewebsites.vista.ConfigureActivity"
+    tools:showIn="@layout/activity_configure">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/informacion"
+                android:textColor="#000"
+                android:padding="5dp"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/ver_publicaciones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ver_publicacion"
+                android:layout_alignParentRight="true"
+                android:padding="5dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/colorBlue"
+                android:layout_alignParentEnd="true"
+                tools:ignore="RelativeOverlap" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/user_name"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:focusable="false"
+            android:textColor="@color/colorBlanco"
+            android:background="@color/colorPrimary"
+            android:inputType="text"
+            tools:ignore="LabelFor" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/user_email"
+            android:textColor="#000"
+            android:padding="5dp"
+            android:textSize="15sp"/>
+
+
+        <EditText
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorBlanco"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:focusable="false"
+            android:background="@color/colorPrimary"
+            android:inputType="text"
+            tools:ignore="LabelFor,TextFields" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

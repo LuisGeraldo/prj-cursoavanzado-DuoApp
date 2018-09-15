@@ -2,9 +2,10 @@
 <resources>
     <color name="colorPrimary">#ea043e</color>
     <color name="colorPrimaryDark">#ea043e</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#ea043e</color>
     <color name="colorBlanco">#fff</color>
     <color name="colorBorder">#fff</color>
     <color name="colorHint">#c8ffffff</color>
     <color name="colorNegro">#000</color>
+    <color name="colorBlue">#9e0044ff</color>
 </resources>

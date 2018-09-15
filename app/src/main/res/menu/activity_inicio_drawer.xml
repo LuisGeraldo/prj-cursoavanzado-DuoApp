@@ -12,12 +12,8 @@
         <item
             android:id="@+id/nav_gallery"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Mi Galeria" />
+            android:title="Mis fotos" />
 
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Configuracion" />
     </group>
 
     <item android:title="Comunicacion">
@@ -28,17 +24,13 @@
                 android:title="Subir Fotos" />
 
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Compartir" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Enviar mensaje" />
+                android:id="@+id/nav_manage"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Configuracion" />
 
             <item
-                android:id="@+id/nav_ubicacion"
-                android:icon="@drawable/ic_menu_gallery"
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
                 android:title="Mi ubicacion" />
         </menu>
     </item>
