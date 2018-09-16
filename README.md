@@ -38,6 +38,8 @@
   </p>    
 
 <h1>Screenshots de la aplicacion</h1>
+<img style=" display: block; margin: 0 auto;" src="/screens/screengiflogin.gif" alt="Screenshot aplication"/>
+<img style=" display: block; margin: 0 auto;" src="/screens/screengif.gif" alt="Screenshot aplication"/>
 <img style=" display: block; margin: 0 auto;" src="/screens/screen01.jpeg" alt="Screenshot aplication"/>
 <img style=" display: block; margin: 0 auto;" src="/screens/screen02.jpeg" alt="Screenshot aplication"/>
 <img style=" display: block; margin: 0 auto;" src="/screens/screen03.jpeg" alt="Screenshot aplication"/>
