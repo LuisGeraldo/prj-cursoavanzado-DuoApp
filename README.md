@@ -1,5 +1,5 @@
 <h1 style="font-family: Arial; text-align: center">Duoapp</h1>
-<h2>Descripcion<h2>  
+<h2>Descripcion</h2>  
      
  <p style="font-family: Arial;">
    DuoApp es una aplicacion desarrollada para el OS android la cual             tiene     como objetivo que los usuarios registrados puedan         compartir fotos, ver las fotos que comparten otros usuarios y compartir esas publicacion en otras aplicaciones, ya sea Instragam, Whatsapp</p>
