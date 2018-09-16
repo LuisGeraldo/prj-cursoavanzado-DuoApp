@@ -7,7 +7,6 @@ import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
 import android.support.v4.app.ActivityCompat;
-import android.widget.TextView;
 
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationCallback;
@@ -21,14 +20,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-
 public class Ubicacion{
 
     private Location userLocation;
     private LocationCallback locationCallback;
     private LocationRequest locationRequest;
     private FusedLocationProviderClient fusedLocationProviderClient;
-    private TextView address;
     private Geocoder geocoder;
     private Context context;
     private LocationStringListener listener;

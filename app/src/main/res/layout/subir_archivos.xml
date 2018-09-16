@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/imgfondo">
@@ -13,11 +14,9 @@
 
             <TextView
                 android:id="@+id/text_descripcion"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Descripcion: "
-                android:textColor="@color/colorBlanco"
-                android:textSize="15sp"/>
+                android:text="@string/descripcion_text"
+                android:textSize="15sp"
+                style="@style/text_view_style" />
 
             <RelativeLayout
                 android:id="@+id/layout_descripcion"
@@ -29,33 +28,25 @@
 
                 <ImageView
                     android:id="@+id/imagen_arriba"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
+                    android:layout_width="@dimen/img_view_width"
+                    android:layout_height="@dimen/img_view_height"
                     android:background="@color/colorBlanco"
-                    android:padding="5dp"/>
+                    android:padding="5dp"
+                    tools:ignore="ContentDescription" />
 
                 <EditText
                     android:id="@+id/edit_text_descripcion"
-                    android:layout_width="match_parent"
-                    android:layout_height="80dp"
-                    android:textColor="@color/colorBlanco"
-                    android:padding="10dp"
-                    android:layout_marginLeft="90dp"
-                    android:hint="ESCRIBA AQUI..."
-                    android:textColorHint="#a3a3a3"
-                    android:textSize="15sp"
-                    android:background="@drawable/styleround"/>
+                    android:hint="@string/descripcion_boton"
+                    style="@style/edit_descripcion" />
             </RelativeLayout>
 
 
             <TextView
                 android:id="@+id/text_ubicacion"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Ubicacion"
-                android:textColor="@color/colorBlanco"
+                android:text="@string/ubicacion"
                 android:textSize="15sp"
-                android:layout_marginTop="40dp"/>
+                android:layout_marginTop="40dp"
+                style="@style/text_view_style"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -73,13 +64,13 @@
                     android:background="@color/colorBlanco"/>
             </RelativeLayout>
 
-            <Button
-                android:id="@+id/btn_compartir"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/compartir_foto"
-                android:layout_marginTop="40dp"
-                android:background="@color/colorPrimary"
-                android:textColor="@color/colorBlanco"/>
+                <Button
+                    android:id="@+id/btn_compartir"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/compartir_foto"
+                    android:layout_marginTop="40dp"
+                    android:background="@color/colorPrimary"
+                    android:textColor="@color/colorBlanco"/>
         </LinearLayout>
 </ScrollView>

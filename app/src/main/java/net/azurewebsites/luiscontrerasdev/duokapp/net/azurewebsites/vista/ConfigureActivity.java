@@ -24,7 +24,9 @@ import java.io.File;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import static objetos.BaseReferencias.SELECT_PICTURE;
+
+import static objetos.Constantes.SELECT_PICTURE;
+
 
 public class ConfigureActivity extends AppCompatActivity {
 

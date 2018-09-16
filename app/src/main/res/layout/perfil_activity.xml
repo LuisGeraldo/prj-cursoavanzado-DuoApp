@@ -17,8 +17,8 @@
             android:id="@+id/foto_perfil"
             android:layout_margin="25dp"
             android:padding="15dp"
-            android:layout_width="220dp"
-            android:layout_height="220dp"
+            android:layout_width="@dimen/img_perfil_width"
+            android:layout_height="@dimen/img_perfil_height"
             android:layout_gravity="center"
             app:layout_anchor="@id/app_bar"/>
 

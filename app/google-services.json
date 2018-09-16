@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "259146301631",
+    "firebase_url": "https://duoapp-f5a69.firebaseio.com",
+    "project_id": "duoapp-f5a69",
+    "storage_bucket": "duoapp-f5a69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259146301631:android:3f9e8f5669e6efae",
+        "android_client_info": {
+          "package_name": "net.azurewebsites.luiscontrerasdev.duokapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259146301631-i4sokqrmj9sjh64mvjkbk92ukdp33mpi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "net.azurewebsites.luiscontrerasdev.duokapp",
+            "certificate_hash": "ada69b6ada5e5940942ce1313eba99911e8302fc"
+          }
+        },
+        {
+          "client_id": "259146301631-drlu1q78l4j3b0qhb8261olom4m3i6e5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCCQJizhKEdKyokeFOgjVEqhCMEgq4DIQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259146301631-drlu1q78l4j3b0qhb8261olom4m3i6e5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

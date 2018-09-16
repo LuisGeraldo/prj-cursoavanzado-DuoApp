@@ -21,11 +21,7 @@ import com.bumptech.glide.request.target.BitmapImageViewTarget;
 import net.azurewebsites.luiscontrerasdev.duokapp.R;
 import net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.modelo.Publicacion;
 import net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.utilidades.Util;
-import net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.vista.ConfigureActivity;
 import net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.vista.Perfil;
-
-import java.io.File;
-import java.io.FileOutputStream;
 import java.util.LinkedList;
 
 public class PublicacionAdapter extends RecyclerView.Adapter<PublicacionAdapter.PublicacionViewHolder> {

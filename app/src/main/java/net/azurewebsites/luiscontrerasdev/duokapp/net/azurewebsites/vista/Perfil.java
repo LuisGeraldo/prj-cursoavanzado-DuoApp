@@ -2,7 +2,6 @@ package net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.vista;
 
 import android.app.Dialog;
 import android.content.Context;
-import android.support.v4.app.FragmentManager;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -21,7 +20,6 @@ public class Perfil {;
     EditText userNameText;
     EditText userEmailText;
     TextView verPublicaciones;
-    FragmentManager fragment;
 
     public Perfil(Context context, String url, String userName, String userEmail){
         util = new Util(context);

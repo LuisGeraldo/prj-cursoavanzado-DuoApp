@@ -24,7 +24,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
                 android:text="@string/informacion"
-                android:textColor="#000"
+                android:textColor="@color/colorNegro"
                 android:padding="5dp"
                 android:textSize="18sp"/>
 
@@ -39,6 +39,7 @@
                 android:textColor="@color/colorBlue"
                 android:layout_alignParentEnd="true"
                 tools:ignore="RelativeOverlap" />
+
         </RelativeLayout>
 
         <TextView
@@ -46,7 +47,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:text="@string/user_name"
-            android:textColor="#000"
+            android:textColor="@color/colorNegro"
             android:padding="5dp"
             android:textSize="15sp"/>
 
@@ -68,10 +69,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:text="@string/user_email"
-            android:textColor="#000"
+            android:textColor="@color/colorNegro"
             android:padding="5dp"
             android:textSize="15sp"/>
-
 
         <EditText
             android:id="@+id/user_email"

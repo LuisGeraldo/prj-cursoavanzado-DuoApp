@@ -35,17 +35,14 @@ import net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.referencedat
 import net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.utilidades.Util;
 
 import java.io.File;
+import java.util.Objects;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static android.Manifest.permission.ACCESS_FINE_LOCATION;
-import static objetos.BaseReferencias.GALERIAINTENT;
-import static objetos.BaseReferencias.MY_PERMISSIONS_REQUEST_CAMERA;
-import static objetos.BaseReferencias.MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE;
-import static objetos.BaseReferencias.PETICION_PERMISO_LOCALIZACION;
-import static objetos.BaseReferencias.REQUEST_LOCATION;
-import static objetos.BaseReferencias.SELECT_PICTURE;
+import static objetos.Constantes.MY_PERMISSIONS_REQUEST_CAMERA;
+import static objetos.Constantes.MY_PERMISSIONS_REQUEST_WRITE_EXTERNAL_STORAGE;
+import static objetos.Constantes.SELECT_PICTURE;
 
 
 public class InicioActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
@@ -99,7 +96,7 @@ public class InicioActivity extends AppCompatActivity implements NavigationView.
 
         titleTool.setTypeface(util.MakeFont(this, "fuentes/fuenteA.ttf"));
         setSupportActionBar(toolbar);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        Objects.requireNonNull(getSupportActionBar()).setDisplayShowTitleEnabled(false);
 
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(this, drawer, toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
         drawer.addDrawerListener(toggle);

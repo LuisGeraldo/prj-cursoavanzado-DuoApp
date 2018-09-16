@@ -22,6 +22,7 @@ import net.azurewebsites.luiscontrerasdev.duokapp.net.azurewebsites.ubicacion.Ub
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Objects;
 
 import static objetos.BaseReferencias.PUBLICACION;
 
@@ -66,7 +67,7 @@ public class SubirArchivos implements Ubicacion.LocationStringListener{
         dialog = new Dialog(context);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCancelable(false);
-        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        Objects.requireNonNull(dialog.getWindow()).setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
         dialog.setContentView(R.layout.subir_archivos);
 
 

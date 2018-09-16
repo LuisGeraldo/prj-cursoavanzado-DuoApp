@@ -14,68 +14,44 @@
 
         <TextView
             android:id="@+id/text_app_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/registrarse"
-            android:textSize="50sp"
-            android:textColor="@color/colorBlanco"
-            android:gravity="center_horizontal"
-            android:layout_marginTop="40dp"
-            android:layout_marginBottom="10dp"/>
+            style="@style/titulo_text"/>
 
         <EditText
             android:id="@+id/edit_text_correo"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorBlanco"
             android:layout_marginTop="40dp"
             android:padding="10dp"
             android:hint="@string/hint_email"
-            android:textColorHint="@color/colorHint"
-            android:background="@drawable/styleround"
-            android:inputType="textEmailAddress" />
+            android:inputType="textEmailAddress"
+            style="@style/edit_text"/>
 
         <EditText
             android:id="@+id/edit_text_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/colorBlanco"
             android:layout_marginTop="10dp"
-            android:padding="10dp"
             android:hint="@string/hint_name"
-            android:textColorHint="@color/colorHint"
-            android:background="@drawable/styleround"
-            android:inputType="text" />
+            android:inputType="text"
+            style="@style/edit_text"/>
 
 
         <EditText
             android:id="@+id/edit_text_password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:inputType="textPassword"
             android:hint="@string/hint_password"
-            android:textColorHint="@color/colorHint"
-            android:textColor="@color/colorBlanco"
             android:padding="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="25dp"
-            android:background="@drawable/styleround"/>
+            style="@style/edit_text"/>
 
         <Button
             android:id="@+id/btn_registrase"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/btn_registrarse"
             android:layout_marginTop="40dp"
-            android:background="@color/colorPrimary"
-            android:textColor="@color/colorBlanco"/>
+            style="@style/botones_style_primary"/>
 
         <Button
             android:id="@+id/btn_iniciar_sesion"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:text="@string/btn_iniciar_sesion"
             android:layout_marginTop="8dp"
-            android:background="@color/colorBlanco" />
+            style="@style/botones_style_blanco"/>
     </LinearLayout>
 </ScrollView>

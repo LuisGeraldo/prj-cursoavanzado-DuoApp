@@ -10,20 +10,17 @@
         android:layout_height="match_parent"
         android:id="@+id/cv">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+            <LinearLayout style="@style/linear_layout">
 
-                    <RelativeLayout
+                <RelativeLayout
                         android:id="@+id/header"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content">
 
                         <ImageView
                             android:id="@+id/user_foto_principal"
-                            android:layout_width="50dp"
-                            android:layout_height="50dp"
+                            android:layout_width="@dimen/dimens_foto_logo"
+                            android:layout_height="@dimen/dimens_foto_logo"
                             android:padding="5dp"
                             android:src="@drawable/ic_menu_camera"
                             tools:ignore="ContentDescription" />
@@ -31,54 +28,34 @@
                         <TextView
                             android:id="@+id/user_name"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
                             android:layout_marginTop="8dp"
-                            android:layout_marginLeft="10dp"
                             android:text="@string/my_name"
-                            android:textColor="@color/colorNegro"
                             android:textSize="15sp"
-                            android:layout_toRightOf="@+id/user_foto_principal"
-                            android:layout_toEndOf="@+id/user_foto_principal"
-                            android:layout_marginStart="10dp"
-                            tools:ignore="RelativeOverlap" />
+                            tools:ignore="RelativeOverlap"
+                            style="@style/text_view_publicacion" />
 
                         <TextView
                             android:id="@+id/ubicacion_user"
                             android:layout_width="250dp"
-                            android:layout_height="wrap_content"
                             android:layout_marginTop="28dp"
-                            android:layout_marginLeft="10dp"
                             android:text="@string/my_sector"
-                            android:textColor="@color/colorNegro"
                             android:textSize="10sp"
-                            android:layout_toRightOf="@+id/user_foto_principal"
-                            android:layout_toEndOf="@+id/user_foto_principal"
                             tools:ignore="RelativeOverlap,SmallSp"
-                            android:layout_marginStart="10dp" />
+                            style="@style/text_view_publicacion"/>
 
-                            <ImageView
+                        <ImageView
                                 android:id="@+id/btn_config"
-                                android:layout_width="20dp"
-                                android:layout_height="20dp"
                                 android:src="@drawable/share"
-                                android:layout_alignParentRight="true"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginRight="18dp"
-                                android:layout_marginEnd="18dp"
-                                android:layout_alignParentEnd="true"
-                                tools:ignore="ContentDescription" />
+                                tools:ignore="ContentDescription"
+                                style="@style/boton_configuracion" />
 
                     </RelativeLayout>
 
-                <ImageView
+                    <ImageView
                     android:id="@+id/img_publicacion"
-                    android:layout_width="wrap_content"
-                    android:layout_height="250dp"
-                    android:scaleType="centerCrop"
-                    android:layout_gravity="center"
                     android:src="@drawable/imgfondo"
-                    tools:ignore="ContentDescription" />
-
+                    tools:ignore="ContentDescription"
+                    style="@style/foto_publicacion" />
 
                 <RelativeLayout
                     android:id="@+id/controles"
@@ -89,54 +66,34 @@
 
                     <CheckBox
                         android:id="@+id/like"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:button="@drawable/check"
-                        android:checked="false"
-                        android:textAppearance="?android:attr/textAppearanceLarge"/>
+                        style="@style/check_box_action" />
 
                     <CheckBox
                         android:id="@+id/conocer"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
                         android:button="@drawable/checkarchivar"
                         android:checked="false"
                         android:layout_marginLeft="40dp"
-                        android:textAppearance="?android:attr/textAppearanceLarge"
-                        android:layout_marginStart="40dp" />
+                        android:layout_marginStart="40dp"
+                        style="@style/check_box_action"/>
 
                 </RelativeLayout>
-
 
                 <RelativeLayout
                     android:id="@+id/footer"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
-
                     <TextView
                         android:id="@+id/user_name_footer"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:layout_marginLeft="10dp"
                         android:text="@string/descripcion_text"
-                        android:textColor="@color/colorNegro"
-                        android:textSize="12sp"
-                        android:layout_marginStart="10dp" />
+                        style="@style/text_view_user_footer" />
 
                     <TextView
                         android:id="@+id/descripcion_publicacion"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:padding="5dp"
-                        android:layout_marginTop="28dp"
-                        android:layout_marginLeft="4dp"
                         android:text="@string/app_name"
-                        android:textColor="@color/colorNegro"
-                        android:textSize="10sp"
-                        android:layout_marginStart="4dp"
-                        tools:ignore="SmallSp" />
+                        tools:ignore="SmallSp"
+                        style="@style/text_descripcion_publicacion" />
                 </RelativeLayout>
         </LinearLayout>
 

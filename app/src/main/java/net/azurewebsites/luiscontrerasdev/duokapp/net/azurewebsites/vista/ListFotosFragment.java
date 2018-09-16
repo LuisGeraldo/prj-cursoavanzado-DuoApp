@@ -41,7 +41,6 @@ public class ListFotosFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
     }
 
     @Override
@@ -73,15 +72,13 @@ public class ListFotosFragment extends Fragment {
 
                     Publicacion publicacion = snapshot.getValue(Publicacion.class);
 
-
-
                     items.addFirst(publicacion);
                 }
 
                 adapter.notifyDataSetChanged();
 
                 if(items.size() == 0){
-                    textException.setText("No hay publicaciones para mostrar");
+                    textException.setText(R.string.no_publicacion_home);
                 }else{
                     textException.setText("");
                 }

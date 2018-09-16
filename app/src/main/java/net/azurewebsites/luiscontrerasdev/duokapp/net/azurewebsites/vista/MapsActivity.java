@@ -24,18 +24,18 @@ import net.azurewebsites.luiscontrerasdev.duokapp.R;
 import java.io.IOException;
 import java.util.List;
 
+import static objetos.Constantes.PETICION_PERMISO_LOCALIZACION;
+
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
     LocationManager locationManager;
-    private static int PETICION_PERMISO_LOCALIZACION = 101;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-
 
         Ubicacion();
     }
