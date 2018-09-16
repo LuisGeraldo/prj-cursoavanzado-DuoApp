@@ -1,5 +1,5 @@
   
-  <div style="background-image: url(https://image.ibb.co/eyxoWe/imgfondo.png); margin: 0 auto; padding: 20px; background-position: center; background-size: cover; background-attachment: fixed; background-repeat: no-repeat;color: white;">
+  <p style="background-image: url(https://image.ibb.co/eyxoWe/imgfondo.png); margin: 0 auto; padding: 20px; background-position: center; background-size: cover; background-attachment: fixed; background-repeat: no-repeat;color: white;">
       
  <p style="font-family: Arial;  font-size: 15; font-weight: normal;">
    DuoApp es una aplicacion desarrollada para el OS android la cual             tiene     como objetivo que los usuarios registrados puedan         compartir fotos, ver las fotos que comparten otros usuarios y compartir esas publicacion en otras aplicaciones, ya sea Instragam, Whatsapp</p>
@@ -35,7 +35,7 @@
        <li>Android studio</li>
     </ul>
   </p>    
-  </div>  
+  </p>  
 
 <h1>Screenshots de la aplicacion</h1>
 <img src="/screens/screen01.jpeg" alt="Screenshot aplication"/>
